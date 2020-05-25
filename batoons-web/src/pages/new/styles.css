@@ -1,0 +1,75 @@
+.notice-edit {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+.notice-edit .notice-edit-container,
+.notice-edit .notice-preview {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.notice-edit .notice-edit-container .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.notice-edit .notice-edit-container .form-group label,
+.notice-edit .notice-edit-container .form-group textarea,
+.notice-edit .notice-edit-container .form-group input {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.notice-edit .notice-edit-container .form-group label,
+.notice-edit .notice-preview h1,
+.notice-edit .notice-preview p {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.notice-edit .notice-edit-container .form-group textarea,
+.notice-edit .notice-edit-container .form-group input {
+  padding: 10px;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+
+.notice-edit .notice-edit-container .form-group textarea {
+  resize: none;
+}
+
+.notice-edit .notice-edit-container button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #335bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.notice-edit .notice-edit-container button[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.notice-edit .notice-edit-container button:hover {
+  opacity: 0.7;
+}
+
+.notice-edit .notice-edit-container button[disabled]:hover {
+  opacity: 0.5;
+}

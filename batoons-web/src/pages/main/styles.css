@@ -1,0 +1,73 @@
+.notice-list {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+
+.notice-list article {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.notice-list article h1 {
+  font-size: 24px;
+}
+
+.notice-list article p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.notice-list article a {
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid #335bff;
+  background: none;
+  margin-top: 10px;
+  color: #335bff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.notice-list article a:hover {
+  background: #335bff;
+  color: #fff;
+}
+
+.notice-list .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.notice-list .actions button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #335bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.notice-list .actions button[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.notice-list .actions button:hover {
+  opacity: 0.7;
+}
+
+.notice-list .actions button[disabled]:hover {
+  opacity: 0.5;
+}
